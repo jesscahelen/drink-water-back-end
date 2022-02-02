@@ -2,4 +2,5 @@ ports:
   - port: 8080
 tasks:
   - init: mysql < MySQL_Script.sql
+  - command: mvn install
 image: gitpod/workspace-mysql
